@@ -1,0 +1,1 @@
+to launch in bash:  python translate '<phrase to translate>' <sourcelang> <destlang>
