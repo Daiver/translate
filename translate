@@ -18,6 +18,7 @@ import urllib2
 
 import json
 
+import pytils
 
 
 def print_params(data):
@@ -72,9 +73,21 @@ def main():
       txt+=str(sys.argv[x]) +' '
     #print (txt)
     #return
+    
+    sourcelang=sys.argv[2]
+    if sourcelang=='ru':
+      try:
+        buff=pytils.translit.detranslify(txt.encode('utf8'))
+        #print buff
+        #return
+      except:
+        pass#print 'lib exception'
+      else:
+        txt=buff.encode('utf8')
+    
     list_of_params.update({'text' : txt,
 
-                           'sl' : sys.argv[2], 
+                           'sl' : sourcelang, 
 
                            'tl' : sys.argv[3] })
 
