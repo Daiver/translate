@@ -1,2 +1,3 @@
-to launch in bash:  python translate '<phrase to translate>' <sourcelang> <destlang>
-You can create aliase such as '<yoir aliase>=python /<path>/translate aliase <source deafult lang> <dest deafult lang>'
+create aliase such as '<yoir aliase>=python /<path>/translate aliase <source deafult lang> <dest deafult lang>' <text...>
+
+ver 0.2 you can use translate without " ' " such as er hello man!
