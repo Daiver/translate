@@ -116,10 +116,10 @@ def main():
     
 
   #simple translation
+  for l in data[0]:
+    print( "%s / %s / %s" % (l[0], l[1], 
 
-  print( "%s / %s / %s" % (data[0][0][0], data[0][0][1], 
-
-              data[0][0][2] or data[0][0][3]))
+              l[2] or l[3]))
 
     
 
