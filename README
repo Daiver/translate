@@ -1,5 +1,7 @@
 create aliase such as '<yoir aliase>=python /<path>/translate aliase <source deafult lang> <dest deafult lang>' <text...>
 
+before using install putils
+
 ver 0.2 you can use translate without " ' " such as er hello man!
 ver 0.3 support multiproposal
 ver 0.4 support translit in ru 2 en
