@@ -91,28 +91,6 @@ def main():
 
                            'tl' : sys.argv[3] })
 
-#  if len(sys.argv) == 4:
-
- #   list_of_params.update({'text' : sys.argv[1],
-#
- #                          'sl' : sys.argv[2], 
-#
- #                          'tl' : sys.argv[3] })
-
- # if len(sys.argv) == 3:
-  #  list_of_params.update({'text' : sys.argv[1],
-
-   #                        'sl' : sys.argv[2], 
-
-    #                       'tl' : "ru" })
-  #if len(sys.argv) == 2:
-   # list_of_params.update({'text' : sys.argv[1],
-
-    #                       'sl' : "en", 
-
-     #                      'tl' : "ru" })
-
-        
 
   request = urllib2.Request(url % urllib.urlencode(list_of_params), 
 
