@@ -6,6 +6,8 @@
 
 from one language to another with Google translate"""
 
+
+
 import sys
 
 import re
@@ -28,6 +30,8 @@ def print_params(data):
     if isinstance(val, basestring):
 
       print ("\t " + val)
+
+
 
 def main():
 
@@ -63,7 +67,7 @@ def main():
       return 0
   if len(sys.argv)>=4:
     txt='';
-    for x in range(3,len(sys.argv)):
+    for x in range(4,len(sys.argv)):
       txt+=str(sys.argv[x]) +' '
     
     sourcelang=sys.argv[1]
